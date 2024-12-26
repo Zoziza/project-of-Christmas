@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Playwrite+PT+Guides&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}   
+
+body {
+    background-image: url('photo_5411165993163680078_y.jpg');
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+
+
+    
+}
+header {
+    display: flex;
+    gap: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 80px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+button, select {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.search, .heart, .basket {
+    width: 20px; 
+    height: 20px; 
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+footer {
+    background-color: rgb(237, 39, 39);     
+    width: 200vh;        
+    margin-left: -9px;
+    display: flex;
+    justify-content: space-between;  
+    padding: 80px;
+    padding-left: -20px;
+}
+
+.last-logo {
+    width: 200px;
+
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;  
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.min-foot {
+    width: 230px;
+    color: white; 
+    display: flex;
+    bottom: 30px;
+}
+
+.middle {
+    margin-bottom: 40px;
+}
+
+.last-icons {
+    display: flex;
+    width: 200px;
+    gap: 20px;
+    position: absolute;
+}
+
+.last-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-weight: 500;
+    color: white;  
+}
+.last-text p, h1{
+    padding: 10px;
+}
+
+
+.contacts svg {
+    width: 20px;
+    position: absolute;
+    margin-left: -30px;
+}
+.banks img {
+    width: 30px;
+    margin: 10px;
+}
+.dark-red {
+  background-color: rgb(189, 5, 5);
+  position: absolute;
+ display: flex;
+ justify-content: space-evenly;
+  margin: 300px;
+  right: -300px;
+  left: - 350px;
+  width: 240vh;
+  padding-bottom: 30px
+
+}
+.middle-text  {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Ephesis", serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+
+  
+}
+.text-last-sales{
+  font-family: none;
+  font-size: 20px;
+  font-weight: normal;
+   margin-bottom: 20px;
+   
+}
+.text-last-sales a{
+ color: white;
+}
+.search-input{
+    display: none;
+}
+.snowflake {
+    width: 30px;
+}
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    text-align: center; 
+    top: 100vh; 
+}
+.main-text {
+
+  bottom: -300px;
+   left: 700px;
+   color: black;
+}
+
+#cardsContainer img  {
+    width: 200px;
+
+}
+#cardsContainer {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content:space-evenly; 
+}
+#cardsContainer div {
+      border: 1px solid black;
+       text-align: center;
+       width: 300px;
+       height: 250px
+}
+ .text-for svg {
+   width: 20px;
+    margin: 10px;       
+ }
+.text-for {
+      text-align: center;
+      margin-bottom: 100px;
+}
+.cards-picture {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.cards-picture .card1, .card2, .cards-picture .card3,  .card4 {
+    position: relative;
+}
+
+.cards-picture img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cards-picture h1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 19px;
+     width: 300px;
+     padding: 20px;
+     text-align: center;
+     border-radius: 10px;
+    margin: 0;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+  
+  
+}
+.carousel-container svg {
+    width: 30px;
+    position: absolute;
+    bottom: 70%;
+    
+}
+.matter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    
+}
+
+.carousel {
+    display: flex;
+    transition: 0.5s ease-in-out;
+    gap: 20px; 
+    margin-top: 100px;  
+    margin-bottom: 100px;   
+  
+}
+
+.carousel-card {
+    width:  00px; 
+    height: 300px; 
+    background-color: #dfd8d869; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center; 
+    transition:  0.3s ease;
+    flex: 0 0 23.23%;
+    
+}
+
+.carousel img {
+    width: 300px;
+    max-height: 200px;
+
+}
+
+.carousel p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+
+
+.next {
+    position: absolute;
+    display: flex;
+    gap:90px ;
+    bottom: 20px;
+    left: 900px;
+ }
+ .prev {
+    position: absolute;
+    display: flex;
+    gap: 90px;
+    bottom: 20px;
+    right: 900px;
+ }
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all .3s  linear;
+   position: fixed;
+   padding: 20px;
+  
+} 
+.header.scrolled {
+    margin: 0;
+    background-color: rgb(183, 8, 8);
+}
+.logo{
+    transition: all 0.3s ease;
+}
+
+
+.arrow {
+    position: fixed;
+    top: 70vh;
+    left: 3%;
+    width: 50px;
+    background: white;
+    padding: 10px;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+.snowfon img {
+ width: 2000px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+opacity: 0.5;
+}
+.min-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+   margin-left: 800px;
+     margin-top: 500px;
+    bottom: -300vh;
+    position: absolute;
+    opacity: 1;
+}
+.canta-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%); 
+}
+
+
+.cantatext {
+    position: absolute;
+    bottom: -310vh;
+    left: 35%;
+    text-align: center;
+    
+}
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .newsletter {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .newsletter h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #email-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #email-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  #email-form button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .promotion {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin: 300px;
+  }
+  
+  .promo-card {
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    top: 55 px;
+    margin-left: 270px;
+    z-index:2;
+    opacity: 0.8;
+  }
+  
+  .promo-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+  
+  .promo-card p {
+    margin: 5px 0;
+  }
+  
+  .promo-image {
+    position: absolute;
+    right: -50px;
+    bottom: -200px;
+    width: 400px;
+  height: 400px;
+  z-index: 1;
+  }
